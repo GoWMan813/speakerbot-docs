@@ -5,15 +5,19 @@ export default defineAppConfig({
     image: '/og-image.png',
     aside: {
       level: 1,
-      exclude: []
+      exclude: [],
     },
     header: {
       logo: true,
       showLinkIcon: true,
-      exclude: []
+      exclude: [],
     },
-    footer: {
-      credits: {}
-    }
-  }
-})
+    github: {
+      dir: 'content',
+      branch: 'main',
+      repo: 'speakerbot-docs',
+      owner: 'Streamerbot',
+      edit: true,
+    },
+  },
+});
