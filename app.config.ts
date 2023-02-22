@@ -3,7 +3,7 @@ export default defineAppConfig({
     title: 'Speaker.bot',
     description: 'Supercharged Text to Speech (TTS) for your live stream!',
     url: 'https://speaker.bot',
-    image: '/og-image.png',
+    image: 'https://cdn.streamer.bot/og/speakerbot.png',
     socials: {
       twitter: 'streamerdotbot',
       github: 'streamerbot/speakerbot-docs',

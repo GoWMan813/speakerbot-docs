@@ -5,9 +5,9 @@ export default defineNuxtConfig({
       meta: [
         {
           name: 'twitter:image',
-          content: 'https://speaker.bot/og-image.png',
+          content: 'https://cdn.streamer.bot/og/speakerbot.png',
         },
-      ]
+      ],
     },
   },
   colorMode: {
