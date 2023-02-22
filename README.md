@@ -1,16 +1,12 @@
-# Docus Starter
+![Speaker.bot Docs](https://speaker.bot/og-image.png)
 
-Starter template for [Docus](https://docus.dev).
+# Speaker.bot Docs
 
-## Clone
+Official documentation for Speaker.bot
 
-Clone the repository (using `nuxi`):
+[Full Documentation](https://speaker.bot)
 
-```bash
-npx nuxi init -t themes/docus
-```
-
-## Setup
+## 📦 Setup
 
 Install dependencies:
 
@@ -18,23 +14,13 @@ Install dependencies:
 yarn install
 ```
 
-## Development
+## 🦄 Development
 
 ```bash
 yarn dev
 ```
 
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
+### Static Generation
 
 Use the `generate` command to build your application.
 
@@ -44,7 +30,7 @@ The HTML files will be generated in the .output/public directory and ready to be
 yarn generate
 ```
 
-## Preview build
+### Preview build
 
 You might want to preview the result of your build locally, to do so, run the following command:
 
